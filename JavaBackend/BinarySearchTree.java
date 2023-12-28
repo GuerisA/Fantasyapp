@@ -32,14 +32,14 @@ public class BinarySearchTree {
             if (rootNode.left != null) {
                 insert(rootNode.left, score, name);
             } else {
-                System.out.println("  Inserted " + name + " to left of Node " + rootNode.name);
+
                 rootNode.left = new Node(name, score);
             }
         } else if (score > rootNode.score) {
             if (rootNode.right != null) {
                 insert(rootNode.right, score, name);
             } else {
-                System.out.println("  Inserted " + name + " to right of Node " + rootNode.name);
+
                 rootNode.right = new Node(name, score);
             }
         }
