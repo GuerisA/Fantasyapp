@@ -99,5 +99,11 @@
         "c:\\poi-bin-5.2.2\\ooxml-lib\\curvesapi-1.07.jar",
         "c:\\poi-bin-5.2.2\\ooxml-lib\\slf4j-api-1.7.36.jar",
         "c:\\poi-bin-5.2.2\\ooxml-lib\\xmlbeans-5.0.3.jar"
-    ]
+    ],
+    "java.project.sourcePaths": [
+        "JavaBackend",
+        "backend/src/main/java/com/finalProject/backend",
+        "backend\\src\\main\\java\\com\\finalProject\\backend"
+    ],
+    "java.compile.nullAnalysis.mode": "automatic"
 }
