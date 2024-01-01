@@ -103,7 +103,8 @@
     "java.project.sourcePaths": [
         "JavaBackend",
         "backend/src/main/java/com/finalProject/backend",
-        "backend\\src\\main\\java\\com\\finalProject\\backend"
+        "backend\\src\\main\\java\\com\\finalProject\\backend",
+        "backend\\src\\main\\java\\com\\finalProject\\backend\\BackendApplication.java"
     ],
     "java.compile.nullAnalysis.mode": "automatic"
 }
