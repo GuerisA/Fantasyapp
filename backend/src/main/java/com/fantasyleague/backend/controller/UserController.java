@@ -3,14 +3,21 @@ package com.fantasyleague.backend.controller;
 import com.fantasyleague.backend.exception.UserNotFoundException;
 import com.fantasyleague.backend.model.User;
 import com.fantasyleague.backend.repository.UserRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import org.springframework.web.bind.annotation.RequestMapping;
 
-/* Created by Arjun Gautam */
+
+
+
 @RestController
 @CrossOrigin("http://localhost:3000")
+//@RequestMapping(path = "api/v1/user")
+
+
 public class UserController {
 
     @Autowired
